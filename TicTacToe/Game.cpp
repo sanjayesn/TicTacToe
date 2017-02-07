@@ -116,12 +116,3 @@ bool Game::checkCol(int pos)
 	int col = pos - row * COLS;
 	return board[0][col] == board[1][col] && board[0][col] == board[2][col];
 }
-
-/*
- x|o|x    0 1 2   
- -----    3 4 5   
- x|x|o    6 7 8   
- -----
- o|o|x
- 
-*/
